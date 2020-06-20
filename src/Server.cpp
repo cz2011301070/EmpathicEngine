@@ -24,6 +24,7 @@ inline void Server::mInitializeSocket(void)
 */
 Server::Server()
 {
+	
 	mInitializeSocket();
 	//Create a scoket
 	mSocketListen = socket(AF_INET, SOCK_STREAM,0);
@@ -74,32 +75,67 @@ bool Server::mIsListenState()
 		return false;
 	}
 }
-
-bool Server::mStartListenThread()
+/**
+* @brief Client thread for send to or receive from each client.
+*/
+UINT Server::mClientThread(LPVOID pParam)
 {
-	//Wait for a connection
-	sockaddr_in client;
-	int clientSize = sizeof(client);
-	SOCKET clientSocket = accept(mSocketListen,(sockaddr *)&client,&clientSize);
-	if (clientSocket == INVALID_SOCKET)
+	Client* pThis= (Client*) pParam;
+	cout<<"Client thread has been started"<<endl;
+	return 0;
+}
+UINT Server::mServerThread(LPVOID pParam)
+{
+	Server* pThis = (Server*) pParam;
+	while (true)
 	{
-		cerr<<"clientSocket is invalid, quitting"<<endl;
+		//Wait for a connection
+		sockaddr_in clientaddr_in;
+		int clientSize = sizeof(clientaddr_in);
+		SOCKET clientSocket = accept(pThis->mGetSocketListen(),(sockaddr *)&clientaddr_in,&clientSize);
+		if (clientSocket == INVALID_SOCKET)
+		{
+			cerr<<"clientSocket is invalid, quitting"<<endl;
+			return -1;
+		}else
+		{
+			char host[NI_MAXHOST];//clients remote name
+			char service[NI_MAXSERV];//service(i.e. port) the client is connect on
+			ZeroMemory(host, NI_MAXHOST);//same as memset(host,0,NI_MAXHOST)
+			ZeroMemory(service,NI_MAXSERV);
+						
+			if (getnameinfo((sockaddr*)&clientaddr_in,sizeof(clientaddr_in),host,NI_MAXHOST,service,NI_MAXSERV,0)==0)
+			{
+				cout<<host<<" connected on port "<<service<<endl;
+			}else{
+				inet_ntop(AF_INET,&clientaddr_in.sin_addr, host,NI_MAXHOST);//network ip to dotted decimal notation
+				cout<<host<<"connected on port "<<
+					ntohs(clientaddr_in.sin_port)<<endl;
+			}
+
+			//Client* client= new Client(host,clientSocket);
+			//AfxBeginThread(mClientThread,(LPVOID)client);///<begin Client thread in server thread when \
+														a valid client connected
+		}
+	}
+	
+	return 0;
+}
+
+
+void Server::mStartListenThread(void)
+{
+	if(mIsListenState())
+	{
+		AfxBeginThread(mServerThread,this);
+	}else
+	{
+		cerr<<"listen state error, quitting"<<endl;
 		return;
 	}
-	char host[NI_MAXHOST];//clients remote name
-	char service[NI_MAXSERV];//service(i.e. port) the client is connect on
-	ZeroMemory(host, NI_MAXHOST);//same as memset(host,0,NI_MAXHOST)
-	ZeroMemory(service,NI_MAXSERV);
-
-	if (getnameinfo((sockaddr*)&client,sizeof(client),host,NI_MAXHOST,service,NI_MAXSERV,0)==0)
-	{
-		cout<<host<<" connected on port "<<service<<endl;
-	}else{
-		inet_ntop(AF_INET,&client.sin_addr, host,NI_MAXHOST);//network ip to dotted decimal notation
-		cout<<host<<"connected on port "<<
-			ntohs(client.sin_port)<<endl;
-	}
+	
 }
+
 
 /**
 * @brief clear client list
@@ -114,8 +150,10 @@ bool Server::mClearClient()
 	{
 		return false;
 	}
-	
 }
+
+
+
 
 /**
 * @brief clean all sockets in the system
@@ -124,8 +162,9 @@ void Server::mCleanSocket()
 {
 	if (mClearClient())
 	{	
-		closesocket(mSocketListen);
+		
 	}
+	closesocket(mSocketListen);
 	WSACleanup();
 }
 
@@ -138,6 +177,19 @@ void Server::mDataSend(char *mBuffer4Send)
 
 }
 
+/**
+* @brief Deconstruction of Server
+*/
 
+Server::~Server()
+{
+	mCleanSocket();
+
+}
+
+SOCKET& Server::mGetSocketListen()
+{
+	return mSocketListen;
+}
 
 

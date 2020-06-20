@@ -9,14 +9,19 @@
 class Client
 {
 public:
+	Client(const char* clientIp,const SOCKET& clientSocket);
 	Client();
 	virtual ~Client();
-
+	void mInitialization(void);
+	
 	void send(char *buf);
 	char *recv();
 private:
-	SOCKET* mClientSocket;
+	char mBuffer4Send[MAXBUFFERSIZE];
+	char mBuffer4Recv[MAXBUFFERSIZE];
+	SOCKET mClientSocket;
 	ClientType mClientType;
+	const char* mClientIp;
 };
 
 class UWPHololensClient:public Client

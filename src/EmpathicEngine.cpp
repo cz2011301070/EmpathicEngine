@@ -5,9 +5,9 @@ EmpathicEngine::EmpathicEngine():mServerSocket(nullptr),\
 									mDataSourceManager(nullptr),\
 										mBitConverter(nullptr),\
 											mAbstractFactory(nullptr)
-{//start of default constructor of EmpathicEngine
-	//******************************************//
-}//end of default constructor of EmpathicEngine
+{
+
+}
 
 inline void EmpathicEngine::mInitData(const EmpathicEngine& epEg){
 	mAbstractFactory = new AbstractFactory();
@@ -41,7 +41,7 @@ EmpathicEngine::~EmpathicEngine(){
 	delete mDataSourceManager;
 	mDataSourceManager= nullptr;
 
-	mServerSocket->mCleanSocket();
+	
 	delete mServerSocket;
 	mServerSocket= nullptr;
 }
