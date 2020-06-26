@@ -7,7 +7,8 @@ int main()
 
 	Epeg->mServerSocket->mStartListenThread();
 
-	while (true)
+	while (true)///<can avoid memory leak in created thread \
+						caused by main thread termination
 	{
 	}
 	return 0;

@@ -1,4 +1,5 @@
 #pragma once
+
 class DataSourceManager
 {
 public:
@@ -6,14 +7,14 @@ protected:
 private:
 };
 
-class XMLManger:DataSourceManager{
+class XMLManger:public DataSourceManager{
 
 };
 
-class DataBaseManager:DataSourceManager{
+class DataBaseManager:public DataSourceManager{
 
 };
 
-class JsonManager:DataSourceManager{
+class JsonManager:public DataSourceManager{
 
 };

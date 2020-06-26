@@ -113,8 +113,8 @@ UINT Server::mServerThread(LPVOID pParam)
 					ntohs(clientaddr_in.sin_port)<<endl;
 			}
 
-			//Client* client= new Client(host,clientSocket);
-			//AfxBeginThread(mClientThread,(LPVOID)client);///<begin Client thread in server thread when \
+			Client* client= new Client(host,clientSocket);
+			AfxBeginThread(mClientThread,(LPVOID)client);///<begin Client thread in server thread when \
 														a valid client connected
 		}
 	}
