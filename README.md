@@ -1,2 +1,2 @@
 # EmpathicEngine
-provide the EmpathicEngine
+Designed for Empathic computing
