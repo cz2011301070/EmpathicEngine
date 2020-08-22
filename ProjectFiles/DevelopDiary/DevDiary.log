@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.9)  22 AUG 2020 08:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.9)  22 AUG 2020 09:32
 entering extended mode
-**e:/4.Coding/EmpathicEngine/ProjectFiles/ConceptDesign/ConceptDesign.tex
-(e:/4.Coding/EmpathicEngine/ProjectFiles/ConceptDesign/ConceptDesign.tex
+**e:/4.Coding/EmpathicEngine/ProjectFiles/DevelopDiary/DevDiary.tex
+(e:/4.Coding/EmpathicEngine/ProjectFiles/DevelopDiary/DevDiary.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-07-17> (D:\ProfessionalSoftwares\Miktex\tex/latex/base\article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -23,8 +23,8 @@ File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count176
 \l__pdf_internal_box=\box45
-) (e:/4.Coding\EmpathicEngine\ProjectFiles\ConceptDesign\ConceptDesign.aux)
-\openout1 = `ConceptDesign.aux'.
+) (e:/4.Coding\EmpathicEngine\ProjectFiles\DevelopDiary\DevDiary.aux)
+\openout1 = `DevDiary.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
@@ -41,30 +41,35 @@ LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 6.
+(Font)              <12> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 6.
+(Font)              <8> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 6.
- (e:/4.Coding\EmpathicEngine\ProjectFiles\ConceptDesign\ConceptDesign.toc)
+(Font)              <6> on input line 8.
+ (e:/4.Coding\EmpathicEngine\ProjectFiles\DevelopDiary\DevDiary.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+)
 \tf@toc=\write3
-\openout3 = `ConceptDesign.toc'.
+\openout3 = `DevDiary.toc'.
 
  [1
 
-{C:/Users/19082/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (e:/4.Coding\EmpathicEngine\ProjectFiles\ConceptDesign\ConceptDesign.aux) ) 
+{C:/Users/19082/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2] (e:/4.Coding\EmpathicEngine\ProjectFiles\DevelopDiary\DevDiary.aux) ) 
 Here is how much of TeX's memory you used:
- 400 strings out of 481225
- 7256 string characters out of 2912233
- 244094 words of memory out of 3000000
- 16042 multiletter control sequences out of 15000+200000
- 539643 words of font info for 44 fonts, out of 3000000 for 9000
+ 399 strings out of 481225
+ 7181 string characters out of 2912233
+ 245094 words of memory out of 3000000
+ 16043 multiletter control sequences out of 15000+200000
+ 539343 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 25i,6n,25p,202b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmbx9.pfb><D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on e:/4.Coding\EmpathicEngine\ProjectFiles\ConceptDesign\ConceptDesign.pdf (1 page, 83131 bytes).
+ 25i,6n,25p,196b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on e:/4.Coding\EmpathicEngine\ProjectFiles\DevelopDiary\DevDiary.pdf (2 pages, 68168 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
+ 29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

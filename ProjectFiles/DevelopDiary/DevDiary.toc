@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}PhD Research Plan}{1}%
+\contentsline {subsection}{\numberline {1.1}Summary}{1}%
+\contentsline {paragraph}{}{1}%
+\contentsline {paragraph}{}{1}%
+\contentsline {paragraph}{MR content}{1}%
+\contentsline {paragraph}{Interaction}{1}%
+\contentsline {paragraph}{Display}{1}%
+\contentsline {paragraph}{AI}{1}%
+\contentsline {subparagraph}{Datasource}{1}%
+\contentsline {section}{\numberline {2}DevDiary}{2}%
+\contentsline {section}{\numberline {3}20200822}{2}%

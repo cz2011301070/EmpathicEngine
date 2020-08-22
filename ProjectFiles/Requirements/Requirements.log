@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.9)  16 AUG 2020 22:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.9)  22 AUG 2020 08:22
 entering extended mode
 **e:/4.Coding/EmpathicEngine/ProjectFiles/Requirements/Requirements.tex
 (e:/4.Coding/EmpathicEngine/ProjectFiles/Requirements/Requirements.tex
@@ -48,9 +48,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 8.
  (e:/4.Coding\EmpathicEngine\ProjectFiles\Requirements\Requirements.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 5.
+(Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 5.
+(Font)              <5> on input line 2.
 )
 \tf@toc=\write3
 \openout3 = `Requirements.toc'.
@@ -61,13 +61,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Here is how much of TeX's memory you used:
  403 strings out of 481225
  7273 string characters out of 2912233
- 245094 words of memory out of 3000000
+ 246094 words of memory out of 3000000
  16045 multiletter control sequences out of 15000+200000
  539950 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  25i,8n,25p,204b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmbx9.pfb><D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/ProfessionalSoftwares/Miktex/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on e:/4.Coding\EmpathicEngine\ProjectFiles\Requirements\Requirements.pdf (2 pages, 124380 bytes).
+Output written on e:/4.Coding\EmpathicEngine\ProjectFiles\Requirements\Requirements.pdf (2 pages, 124195 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

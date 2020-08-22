@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1598053665 "e:/4.Coding/EmpathicEngine/ProjectFiles/DetailDesign/DetailDesign.tex" "e:/4.Coding/EmpathicEngine/ProjectFiles/DetailDesign/DetailDesign.pdf" "DetailDesign" 1598054280
+["pdflatex"] 1598059966 "e:/4.Coding/EmpathicEngine/ProjectFiles/DevelopDiary/DevDiary.tex" "e:/4.Coding/EmpathicEngine/ProjectFiles/DevelopDiary/DevDiary.pdf" "DevDiary" 1598064829
   "C:/Users/19082/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1596979720 10045062 b1cb341b4f7755e0edaafd5837e76cae ""
   "C:/Users/19082/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1596979713 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "D:/ProfessionalSoftwares/Miktex/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -22,15 +22,15 @@
   "D:/ProfessionalSoftwares/Miktex/tex/latex/base/article.cls" 1582871666 20023 e427dd9e17e239bf926ef3aab67fe35e ""
   "D:/ProfessionalSoftwares/Miktex/tex/latex/base/size10.clo" 1582871666 8446 9874cccac5fee462272c582807dbbf56 ""
   "D:/ProfessionalSoftwares/Miktex/tex/latex/l3backend/l3backend-pdfmode.def" 1593424850 24606 ecae4e851ce9ce4554d156050e5057f9 ""
-  "DetailDesign.aux" 1598053665 397 070e736d4fa09b0a91cbd28e7677747f "pdflatex"
-  "DetailDesign.tex" 1598054279 271 ac1445005b67c57730447ca46770213e ""
-  "DetailDesign.toc" 1598053665 225 1101170c16e6bb77e2db91d4d4289ae7 "pdflatex"
-  "e:/4.Coding/EmpathicEngine/ProjectFiles/DetailDesign/DetailDesign.aux" 1598053665 397 070e736d4fa09b0a91cbd28e7677747f ""
-  "e:/4.Coding/EmpathicEngine/ProjectFiles/DetailDesign/DetailDesign.tex" 1598054279 271 ac1445005b67c57730447ca46770213e ""
+  "DevDiary.aux" 1598059966 951 c60708171d370ec8e524706fef257db4 "pdflatex"
+  "DevDiary.tex" 1598059965 1083 2f8eb0d83a6351fbd591698af6b2d34c ""
+  "DevDiary.toc" 1598059966 492 eaf600781ac156f611e3a13a4fbe0fb8 "pdflatex"
+  "e:/4.Coding/EmpathicEngine/ProjectFiles/DevelopDiary/DevDiary.aux" 1598059966 951 c60708171d370ec8e524706fef257db4 ""
+  "e:/4.Coding/EmpathicEngine/ProjectFiles/DevelopDiary/DevDiary.tex" 1598059965 1083 2f8eb0d83a6351fbd591698af6b2d34c ""
   (generated)
-  "e:/4.Coding/EmpathicEngine/ProjectFiles/DetailDesign/DetailDesign.log"
-  "DetailDesign.aux"
-  "e:/4.Coding/EmpathicEngine/ProjectFiles/DetailDesign/DetailDesign.pdf"
-  "DetailDesign.log"
-  "DetailDesign.pdf"
-  "DetailDesign.toc"
+  "DevDiary.aux"
+  "DevDiary.pdf"
+  "DevDiary.log"
+  "DevDiary.toc"
+  "e:/4.Coding/EmpathicEngine/ProjectFiles/DevelopDiary/DevDiary.pdf"
+  "e:/4.Coding/EmpathicEngine/ProjectFiles/DevelopDiary/DevDiary.log"
