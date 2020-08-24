@@ -1,11 +1,12 @@
-\contentsline {section}{\numberline {1}PhD Research Plan}{1}%
-\contentsline {subsection}{\numberline {1.1}Summary}{1}%
-\contentsline {paragraph}{}{1}%
-\contentsline {paragraph}{}{1}%
-\contentsline {paragraph}{MR content}{1}%
-\contentsline {paragraph}{Interaction}{1}%
-\contentsline {paragraph}{Display}{1}%
-\contentsline {paragraph}{AI}{1}%
-\contentsline {subparagraph}{Datasource}{1}%
-\contentsline {section}{\numberline {2}DevDiary}{2}%
-\contentsline {section}{\numberline {3}20200822}{2}%
+\contentsline {section}{\numberline {1}Backlog}{1}%
+\contentsline {paragraph}{Collaboration Type}{1}%
+\contentsline {section}{\numberline {2}PhD Research Plan}{2}%
+\contentsline {subsection}{\numberline {2.1}Summary}{2}%
+\contentsline {paragraph}{}{2}%
+\contentsline {paragraph}{MR content}{2}%
+\contentsline {paragraph}{Interaction}{2}%
+\contentsline {paragraph}{Display}{2}%
+\contentsline {paragraph}{AI}{2}%
+\contentsline {subparagraph}{Datasource}{2}%
+\contentsline {section}{\numberline {3}DevDiary}{2}%
+\contentsline {section}{\numberline {4}20200822}{2}%

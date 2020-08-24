@@ -29,6 +29,7 @@ INPUT e:\4.Coding\EmpathicEngine\ProjectFiles\ConceptDesign\ConceptDesign.toc
 INPUT e:\4.Coding\EmpathicEngine\ProjectFiles\ConceptDesign\ConceptDesign.toc
 INPUT D:\ProfessionalSoftwares\Miktex\fonts\tfm\public\cm\cmbx10.tfm
 OUTPUT e:\4.Coding\EmpathicEngine\ProjectFiles\ConceptDesign\ConceptDesign.toc
+INPUT D:\ProfessionalSoftwares\Miktex\fonts\tfm\public\cm\cmbx12.tfm
 OUTPUT e:\4.Coding\EmpathicEngine\ProjectFiles\ConceptDesign\ConceptDesign.pdf
 INPUT C:\Users\19082\AppData\Local\MiKTeX\pdftex\config\pdftex.map
 INPUT e:\4.Coding\EmpathicEngine\ProjectFiles\ConceptDesign\ConceptDesign.aux
