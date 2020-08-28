@@ -1,6 +1,17 @@
 #pragma once
 #include <mysql.h>
 
+#ifdef _DEBUG
+#pragma comment(lib, "libmysqld.lib")
+#else
+#pragma comment(lib, "libmysql.lib")
+#endif
+
+#pragma comment(lib, "mysqlclient.lib")
+#pragma comment(lib, "mysqlserver.lib")
+#pragma comment(lib, "mysqlservices.lib")
+
+
 class DBMysql
 {
 public:
