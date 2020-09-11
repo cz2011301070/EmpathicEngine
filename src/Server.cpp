@@ -16,7 +16,9 @@ inline void Server::mInitializeSocket(void)
 		cerr<< "Can't Initialize winsock£¡ Quitting"<<endl;
 		return;
 	}
-	
+	//Get Port number from the Setup.ini file
+	INIFile* INIptr = new INIFile();
+	mServerPort;
 }
 
 /**
@@ -33,6 +35,7 @@ Server::Server()
 		cerr<<"Can't create a socket! Quitting"<<endl;
 		return;
 	}
+
 }
 
 /**
@@ -62,7 +65,7 @@ bool Server::mIsListenState()
 	/* ntohs()--network to host short
 	/*
 	*/
-	hint.sin_port = htons(54000);
+	hint.sin_port = htons(mServerPort);
 	hint.sin_addr.S_un.S_addr = INADDR_ANY;//Could also use inet_pton
 
 	bind(mSocketListen,(sockaddr *)&hint, sizeof(hint));
@@ -191,5 +194,11 @@ SOCKET& Server::mGetSocketListen()
 {
 	return mSocketListen;
 }
+
+
+
+
+
+
 
 

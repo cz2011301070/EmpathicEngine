@@ -1,12 +1,18 @@
 \contentsline {section}{\numberline {1}Backlog}{1}%
-\contentsline {paragraph}{Collaboration Type}{1}%
+\contentsline {paragraph}{Scientific Problems}{1}%
+\contentsline {paragraph}{Empathy}{2}%
+\contentsline {paragraph}{Agent}{2}%
+\contentsline {paragraph}{Emotion theory}{2}%
+\contentsline {paragraph}{Affective Computing}{2}%
+\contentsline {paragraph}{Collaborative Mixed reality}{2}%
 \contentsline {section}{\numberline {2}PhD Research Plan}{2}%
 \contentsline {subsection}{\numberline {2.1}Summary}{2}%
-\contentsline {paragraph}{}{2}%
-\contentsline {paragraph}{MR content}{2}%
-\contentsline {paragraph}{Interaction}{2}%
-\contentsline {paragraph}{Display}{2}%
-\contentsline {paragraph}{AI}{2}%
-\contentsline {subparagraph}{Datasource}{2}%
-\contentsline {section}{\numberline {3}DevDiary}{2}%
-\contentsline {section}{\numberline {4}20200822}{2}%
+\contentsline {paragraph}{Preface}{2}%
+\contentsline {paragraph}{MR content}{3}%
+\contentsline {paragraph}{Interaction}{3}%
+\contentsline {paragraph}{Display}{3}%
+\contentsline {paragraph}{AI}{3}%
+\contentsline {subparagraph}{Datasource}{3}%
+\contentsline {subsection}{\numberline {2.2}Experiment}{3}%
+\contentsline {section}{\numberline {3}DevDiary}{3}%
+\contentsline {section}{\numberline {4}20200822}{3}%

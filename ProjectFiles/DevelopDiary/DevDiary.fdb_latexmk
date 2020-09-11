@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex DevDiary"] 1598279194 "DevDiary.aux" "DevDiary.bbl" "DevDiary" 1598279457
+["bibtex DevDiary"] 1599736319 "DevDiary.aux" "DevDiary.bbl" "DevDiary" 1599832531
   "D:/ProfessionalSoftwares/Miktex/bibtex/bst/bibtex/unsrt.bst" 1291864736 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "DevDiary.aux" 1598279406 1154 5c6a6fb7d5584ad73216d03a4c0a25b9 "pdflatex"
-  "References.bib" 1598279036 270 dac28d90d26fa1b009684f6e089bd429 ""
+  "DevDiary.aux" 1599736502 1708 38d5bdf85ad8e6d48a0da854fd683e06 "pdflatex"
+  "References.bib" 1598881760 566 086ed8c2a3601a0e545b9d21ac66de8a ""
   (generated)
-  "DevDiary.bbl"
   "DevDiary.blg"
-["pdflatex"] 1598279406 "e:/4.Coding/EmpathicEngine/ProjectFiles/DevelopDiary/DevDiary.tex" "e:/4.Coding/EmpathicEngine/ProjectFiles/DevelopDiary/DevDiary.pdf" "DevDiary" 1598279457
+  "DevDiary.bbl"
+["pdflatex"] 1599736502 "e:/4.Coding/EmpathicEngine/ProjectFiles/DevelopDiary/DevDiary.tex" "e:/4.Coding/EmpathicEngine/ProjectFiles/DevelopDiary/DevDiary.pdf" "DevDiary" 1599832531
   "C:/Users/19082/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1596979720 10045062 b1cb341b4f7755e0edaafd5837e76cae ""
   "C:/Users/19082/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1598279184 82507 a9eef8696c92627b87e9975edea03b2a ""
   "D:/ProfessionalSoftwares/Miktex/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -31,16 +31,17 @@
   "D:/ProfessionalSoftwares/Miktex/tex/latex/base/article.cls" 1582871666 20023 e427dd9e17e239bf926ef3aab67fe35e ""
   "D:/ProfessionalSoftwares/Miktex/tex/latex/base/size10.clo" 1582871666 8446 9874cccac5fee462272c582807dbbf56 ""
   "D:/ProfessionalSoftwares/Miktex/tex/latex/l3backend/l3backend-pdfmode.def" 1593424850 24606 ecae4e851ce9ce4554d156050e5057f9 ""
-  "DevDiary.aux" 1598279406 1154 5c6a6fb7d5584ad73216d03a4c0a25b9 "pdflatex"
-  "DevDiary.bbl" 1598279194 244 803afecb7255d42d7037d1a274156af0 "bibtex DevDiary"
-  "DevDiary.tex" 1598279457 2519 959c40477dd8071cdf95afa3b0e2314e ""
-  "DevDiary.toc" 1598279406 562 85597cd81f029deb3b49533748bc2238 "pdflatex"
-  "e:/4.Coding/EmpathicEngine/ProjectFiles/DevelopDiary/DevDiary.aux" 1598279406 1154 5c6a6fb7d5584ad73216d03a4c0a25b9 ""
-  "e:/4.Coding/EmpathicEngine/ProjectFiles/DevelopDiary/DevDiary.tex" 1598279457 2519 959c40477dd8071cdf95afa3b0e2314e ""
+  "D:/ProfessionalSoftwares/Miktex/tex/latex/tools/indentfirst.sty" 1580644886 1619 d4cd7231755dd1dfa89af8ceddfb0e4d ""
+  "DevDiary.aux" 1599736502 1708 38d5bdf85ad8e6d48a0da854fd683e06 "pdflatex"
+  "DevDiary.bbl" 1599736319 249 4ac2920e78de770522ff7d3dfe2d367f "bibtex DevDiary"
+  "DevDiary.tex" 1599832529 4229 f2982736372302474d1e551f76f22174 ""
+  "DevDiary.toc" 1599736502 862 e7afc6d76f1637a3e0c25a5383e33181 "pdflatex"
+  "e:/4.Coding/EmpathicEngine/ProjectFiles/DevelopDiary/DevDiary.aux" 1599736502 1708 38d5bdf85ad8e6d48a0da854fd683e06 ""
+  "e:/4.Coding/EmpathicEngine/ProjectFiles/DevelopDiary/DevDiary.tex" 1599832529 4229 f2982736372302474d1e551f76f22174 ""
   (generated)
   "DevDiary.aux"
-  "DevDiary.toc"
-  "e:/4.Coding/EmpathicEngine/ProjectFiles/DevelopDiary/DevDiary.pdf"
-  "DevDiary.pdf"
-  "e:/4.Coding/EmpathicEngine/ProjectFiles/DevelopDiary/DevDiary.log"
   "DevDiary.log"
+  "e:/4.Coding/EmpathicEngine/ProjectFiles/DevelopDiary/DevDiary.pdf"
+  "e:/4.Coding/EmpathicEngine/ProjectFiles/DevelopDiary/DevDiary.log"
+  "DevDiary.toc"
+  "DevDiary.pdf"

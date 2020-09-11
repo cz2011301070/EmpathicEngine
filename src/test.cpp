@@ -10,6 +10,7 @@ int main()
 	while (true)///<can avoid memory leak in created thread \
 						caused by main thread termination
 	{
+
 	}
 	return 0;
 

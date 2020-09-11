@@ -1,4 +1,5 @@
 \documentclass{article}
+\usepackage{indentfirst}
 \begin{document}
 
 \title{EmpathicEngine Development Diary}
@@ -10,26 +11,56 @@
 
 \tableofcontents
 \section{Backlog}
-\paragraph{Collaboration Type}
+\paragraph{Scientific Problems}
+
+Definition of agent, software agent, hardware agent
+Definition of empathy
+Theory of emotion and affective computing
+
+\begin{enumerate}
+\item[1] relationship between human and agent in collaborative MR system
+\begin{enumerate}
+    \item[1.1]whether setting collaborative task in virtual reality can improve empathy? 
+    \item[1.2]when and how could agent help improve understanding between two collaborators?
+    \item[1.3] How does social realtionship influence empathy between collaborators?
+ 
+\end{enumerate} 
+
+\item[2]pros and cons of integrating an agent into a collborative system?
+\begin{enumerate}
+    \item[2.1]Whether an agent with the capacity of empathy in MR collobrative system can help 
+    enhance humanbeings' ability of empathy? Whether agent modulating collaboration inforamtion actively can help imporve understanding?
+    \item[2.2]Maybe in other situations it inhibits collaboration and might become intrusive.
+ 
+\end{enumerate} 
+
+\item[3]How can agent generate empathic representation properly?
+\begin{enumerate}
+    \item[2.1]Emotion theory
+    \item[2.2]Data processing methods 
+    \item[2.2]evaluation criteria or methods
+ 
+\end{enumerate} 
 
 
-Relationship between human and agent in human-computer collaboration \cite{EmpathyConcept}.
+\end{enumerate}
 
-whether set collaborative task in virtual reality can improve empathy?
-
-Adjust physical and physiological state to colloboratively finish a task and
-feel oneself's state to infer other's state. This can be used for psycological 
-trainning where a healthy people can help psychological disabled one to 
-feel the normal inner state.
+\paragraph{Empathy}
+De Waal\cite{preston2002empathy} defines empathy as the capacity to a) be affected by share the emotional
+ state of the another, b) assess the reasons for the others state, and 
+ c) identify with the other, adopting his or her perspectives.
 
 
-human adjust their physical or physiological signal to reach a level and computer
-will change volume or picture color
+\paragraph{Agent}
+An agent can make decisions automatically according to its own knowledge
+\paragraph{Emotion theory}
 
-Observer and target.
+\paragraph{Affective Computing}
 
-Agent can manipulate (augment or depress) elements from the computer side to 
-change focus to create new meaning of current job.
+\paragraph{Collaborative Mixed reality}
+
+
+
 
 In MR based collaborative environment, we research empathy between or among 
 follolwing objects:
@@ -45,15 +76,17 @@ follolwing objects:
 \item[9] huamn group-agent group     
 \end{enumerate}
 
-
 \section{PhD Research Plan}
 \subsection{Summary}
-\paragraph{}
+\paragraph{Preface}
 Construct an engine to support most mixed
 reality (MR) related scientific research.
 
 Agent in MR environment help enhance understand and 
 feeling of social presence.
+
+Agent can manipulate (augment or depress) elements from the computer side to 
+change focus to create new meaning of current job.
 
 \paragraph{MR content}
 3D model will be placed on the web server.
@@ -68,18 +101,30 @@ Display is also constrained by terminal devices.
 Integrate artificial intelligence to construct Agent
 that can sense, express and regulate emotion
 
-    \subparagraph{Datasource}
-    Data comprises physical and physiological signals.
-    \begin{enumerate}
-    \item[1)]
-    physical signals includes images, voices and so on.
-    \item[2)]
-    Physiological signals comprises Electroencephlogram(EEG), Electrocardiogram
-    (ECG), etc..
-    \end{enumerate}
+\subparagraph{Datasource}
+Data comprises physical and physiological signals.
+\begin{enumerate}
+\item[1)]
+physical signals includes images, voices and so on.
+\item[2)]
+Physiological signals comprises Electroencephlogram(EEG), Electrocardiogram
+(ECG), etc..
+\end{enumerate}
 
-
-
+\subsection{Experiment}
+\begin{enumerate}
+\item[1)]
+human adjust their physical or physiological signal to reach a level and computer
+will change volume or picture color
+\item[2)]
+Adjust physical and physiological state to colloboratively finish a task and
+feel oneself's state to infer other's state. This can be used for psycological 
+trainning where a healthy people can help psychological disabled one to 
+feel the normal inner state. 
+\item[3)] 
+One adjust his or her physical or physiological level to change a VR scene by which 
+the observer's state can be influenced. 
+\end{enumerate}
 
 \section{DevDiary}
 \section{20200822}

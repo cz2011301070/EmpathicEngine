@@ -19,13 +19,13 @@ DBMysql::DBMysql()
 bool DBMysql::mConnectDB()
 {
 
-
+	return true;
 }
 
 bool DBMysql::mQueryDB()
 {
 
-
+	return true;
 }
 
 

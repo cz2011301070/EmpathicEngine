@@ -7,6 +7,7 @@
 #include <WS2tcpip.h>
 #include <list>
 #include "Client.h"
+#include"FileProcess.h"
 #pragma comment(lib, "ws2_32.lib")
 using namespace std;
 
@@ -14,15 +15,13 @@ class Server
 {
 public:
 
-
-
-
 	list<Client*> mClientList;
 
 	Server();
 	Server(const Server& other);
 	~Server();
 	
+	u_short mGetPort();
 	
 	void mCleanSocket(void);/**< clean all sockets in the system */
 	bool mClearClient(void);
@@ -45,6 +44,8 @@ private:
 	void mInitializeSocket(void);
 	bool mIsListenState(void);
 	SOCKET mSocketListen;//()const;
+
+	u_short mServerPort;
 
 };
 
