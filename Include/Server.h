@@ -28,25 +28,26 @@ public:
 
 	void mStartListenThread(void);
 
-
-	void mDataSend(char *mBuffer4Send);
-	char* mDataRecv(void);
+	void mDataSend(char *buffer, SOCKET client);
 
 	void mAddClient(const Client &client);
 	void mRemoveClient(const Client);
 
 	SOCKET& mGetSocketListen();
+	
 protected:
 	
 private:
 	static UINT mServerThread(LPVOID pParam);
 	static UINT mClientThread(LPVOID pParam);
+	
 	void mInitializeSocket(void);
 	bool mIsListenState(void);
 	SOCKET mSocketListen;//()const;
-
+	
 	u_short mServerPort;
 
+	
 };
 
 

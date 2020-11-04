@@ -1,4 +1,6 @@
 #include "../Include/Server.h"
+
+
 /**
 *@ brief WINSOCK Initialization
 */
@@ -17,8 +19,22 @@ inline void Server::mInitializeSocket(void)
 		return;
 	}
 	//Get Port number from the Setup.ini file
-	INIFile* INIptr = new INIFile();
-	mServerPort;
+	Filebase* filePtr = new INIFile();
+	string port;
+	filePtr->mRead("E:/4.Coding/EmpathicEngineProj/EmpathicEngine/Setup.ini", SplitType::Space);
+	if (filePtr->mFileContents.count("port"))
+	{
+		port = filePtr->mFileContents["port"];
+		mServerPort = atoi((char*)port.c_str());
+		
+	}
+	else
+	{
+		cerr << "mInitializeSocket::mSetupFileContents is Empaty !!" << endl;
+		exit(0);
+	}
+	
+	
 }
 
 /**
@@ -78,15 +94,38 @@ bool Server::mIsListenState()
 		return false;
 	}
 }
+
+
 /**
 * @brief Client thread for send to or receive from each client.
 */
 UINT Server::mClientThread(LPVOID pParam)
 {
 	Client* pThis= (Client*) pParam;
-	cout<<"Client thread has been started"<<endl;
+	if(pThis)
+	{
+		cout << "Client thread has been started" << endl;
+		while (true)
+		{
+			int RecvLen = recv(pThis->mClientSocket, buffer, sizeof(buffer), 0);
+			if (RecvLen == SOCKET_ERROR)
+			{
+				cout << "Server::mClientThread failed to recv data!" << WSAGetLastError() << endl;
+			}
+			else
+			{
+				cout << "Server::mClientThread successfully received " << RecvLen << " bytes" << endl;
+			}
+		}
+	}
+	
+	
+	
+	
 	return 0;
 }
+
+
 UINT Server::mServerThread(LPVOID pParam)
 {
 	Server* pThis = (Server*) pParam;
@@ -171,13 +210,22 @@ void Server::mCleanSocket()
 	WSACleanup();
 }
 
+
+
+
 /**
 * @brief send data to clients
 */
-void Server::mDataSend(char *mBuffer4Send)
+void Server::mDataSend(char *buffer, SOCKET client)
 {
-
-
+	int sendLen = send(client, buffer, sizeof(*buffer),0);
+	if (sendLen == SOCKET_ERROR) {
+		cout << "Server::mDataSend failed to send data!" << WSAGetLastError() << endl;
+	}
+	else
+	{
+		cout << "Server::mDataSend successfully sent " << sendLen << " bytes"<<endl;
+	}
 }
 
 /**

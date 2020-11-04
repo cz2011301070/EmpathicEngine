@@ -12,14 +12,12 @@ public:
 	Client(const char* clientIp,const SOCKET& clientSocket);
 	Client();
 	virtual ~Client();
-	void mInitialization(void);
+
 	
-	void send(char *buf);
-	char *recv();
-private:
-	char mBuffer4Send[MAXBUFFERSIZE];
-	char mBuffer4Recv[MAXBUFFERSIZE];
 	SOCKET mClientSocket;
+private:
+
+	
 	ClientType mClientType;
 	const char* mClientIp;
 };
