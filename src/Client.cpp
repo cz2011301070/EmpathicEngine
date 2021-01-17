@@ -2,7 +2,7 @@
 
 Client::Client()
 {
-	
+	mClientIp = NULL;
 }
 /**
 *@ brief Copy constructor of Client
@@ -20,12 +20,6 @@ Client::~Client()
 	delete mClientIp;
 	mClientIp = nullptr;
 }
-
-
-
-
-
-
 
 
 

@@ -1,7 +1,7 @@
 \contentsline {section}{\numberline {1}Introduction}{1}%
 \contentsline {section}{\numberline {2}Framework}{1}%
 \contentsline {subsection}{\numberline {2.1}Server}{1}%
-\contentsline {subsection}{\numberline {2.2}Client}{1}%
+\contentsline {subsection}{\numberline {2.2}Client}{2}%
 \contentsline {subsection}{\numberline {2.3}Content render}{2}%
 \contentsline {subsection}{\numberline {2.4}Database}{2}%
 \contentsline {section}{\numberline {3}Functions}{2}%
