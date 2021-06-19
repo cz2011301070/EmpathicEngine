@@ -21,7 +21,7 @@ inline void Server::mInitializeSocket(void)
 	//Get Port number from the Setup.ini file
 	Filebase* filePtr = new INIFile();
 	string port;
-	filePtr->mRead("E:/4.Coding/EmpathicEngineProj/EmpathicEngine/Setup.ini", SplitType::Space);
+	filePtr->mRead("../Setup.ini", SplitType::Space);
 	if (filePtr->mFileContents.count("port"))
 	{
 		port = filePtr->mFileContents["port"];
@@ -95,7 +95,6 @@ bool Server::mIsListenState()
 	}
 }
 
-
 /**
 * @brief Client thread for send to or receive from each client.
 */
@@ -104,23 +103,24 @@ UINT Server::mClientThread(LPVOID pParam)
 	Client* pThis= (Client*) pParam;
 	if(pThis)
 	{
-		cout << "Client thread has been started" << endl;
+		cout << pThis->Get_mClientHostName()\
+			<< pThis->Get_mPort()<<": Client thread has been started" << endl;
 		while (true)
 		{
 			int RecvLen = recv(pThis->mClientSocket, buffer, sizeof(buffer), 0);
+
 			if (RecvLen == SOCKET_ERROR)
 			{
 				cout << "Server::mClientThread failed to recv data!" << WSAGetLastError() << endl;
+				exit(1);
 			}
-			else
+			else if(RecvLen !=0)
 			{
-				cout << "Server::mClientThread successfully received " << RecvLen << " bytes" << endl;
+				cout << pThis->Get_mClientHostName()\
+					<< pThis->Get_mPort() << "Server::mClientThread successfully received " << RecvLen << " bytes" << endl;
 			}
 		}
 	}
-	
-	
-	
 	
 	return 0;
 }
@@ -143,9 +143,10 @@ UINT Server::mServerThread(LPVOID pParam)
 		{
 			char host[NI_MAXHOST];//clients remote name
 			char service[NI_MAXSERV];//service(i.e. port) the client is connect on
-			ZeroMemory(host, NI_MAXHOST);//same as memset(host,0,NI_MAXHOST)
-			ZeroMemory(service,NI_MAXSERV);
-						
+			
+			memset(host, 0, NI_MAXHOST);
+			memset(service, 0, NI_MAXSERV);
+
 			if (getnameinfo((sockaddr*)&clientaddr_in,sizeof(clientaddr_in),host,NI_MAXHOST,service,NI_MAXSERV,0)==0)
 			{
 				cout<<host<<" connected on port "<<service<<endl;
@@ -155,21 +156,29 @@ UINT Server::mServerThread(LPVOID pParam)
 					ntohs(clientaddr_in.sin_port)<<endl;
 			}
 
-			Client* client= new Client(host,clientSocket);
-			AfxBeginThread(mClientThread,(LPVOID)client);///<begin Client thread in server thread when \
-														a valid client connected
+			Client* client= new Client(clientaddr_in, service, host,clientSocket);
+			pThis->mAddClient(client);
+			AfxBeginThread(Server::mClientThread,(LPVOID)client);///<begin Client thread in server thread when \
+
 		}
 	}
 	
 	return 0;
 }
 
+void Server::mAddClient(const Client* client)
+{
+	mClientlist.push_back(client);
+}
 
 void Server::mStartListenThread(void)
 {
 	if(mIsListenState())
 	{
-		AfxBeginThread(mServerThread,this);
+		if (AfxBeginThread(Server::mServerThread, this))
+		{
+			cout << "mServerThread is Successfully started! " << endl;
+		}
 	}else
 	{
 		cerr<<"listen state error, quitting"<<endl;
@@ -178,14 +187,21 @@ void Server::mStartListenThread(void)
 	
 }
 
-
 /**
 * @brief clear client list
 */
 bool Server::mClearClient()
 {
-	mClientList.clear();
-	if (mClientList.empty())
+	list<const Client*>::iterator it= mClientlist.begin();
+	while (it != mClientlist.end())
+	{
+		delete (*it);
+		*it = NULL;
+		it++;
+	}
+
+	mClientlist.clear();
+	if (mClientlist.empty())
 	{
 		return true;
 	}else
@@ -193,9 +209,6 @@ bool Server::mClearClient()
 		return false;
 	}
 }
-
-
-
 
 /**
 * @brief clean all sockets in the system
@@ -209,9 +222,6 @@ void Server::mCleanSocket()
 	closesocket(mSocketListen);
 	WSACleanup();
 }
-
-
-
 
 /**
 * @brief send data to clients
@@ -228,10 +238,18 @@ void Server::mDataSend(char *buffer, SOCKET client)
 	}
 }
 
+void Server::mBroadcast(char* buffer)
+{
+	list<const Client*>::iterator it = mClientlist.begin();
+	while (it != mClientlist.end())
+	{
+		mDataSend(buffer, (*it)->mClientSocket);
+	}
+}
+
 /**
 * @brief Deconstruction of Server
 */
-
 Server::~Server()
 {
 	mCleanSocket();

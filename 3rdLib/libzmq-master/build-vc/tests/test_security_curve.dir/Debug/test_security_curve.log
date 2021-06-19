@@ -1,0 +1,7 @@
+﻿  Building Custom Rule E:/4.Coding/libzmq-master/tests/CMakeLists.txt
+  test_security_curve.cpp
+  err.cpp
+  random.cpp
+  clock.cpp
+  tweetnacl.c
+  test_security_curve.vcxproj -> E:\4.Coding\libzmq-master\build-vc\bin\Debug\test_security_curve.exe

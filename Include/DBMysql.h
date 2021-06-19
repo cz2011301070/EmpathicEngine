@@ -1,12 +1,9 @@
 #pragma once
 #include <mysql.h>
+#include <iostream>
 
-#ifdef _DEBUG
-#pragma comment(lib, "libmysqld.lib")
-#else
+
 #pragma comment(lib, "libmysql.lib")
-#endif
-
 #pragma comment(lib, "mysqlclient.lib")
 #pragma comment(lib, "mysqlserver.lib")
 #pragma comment(lib, "mysqlservices.lib")
@@ -18,7 +15,9 @@ public:
 	DBMysql();
 	~DBMysql();
 	/**connnetion*/
-	bool mConnectDB();
+	bool mConnectDB(const char*hostName, const unsigned int port, \
+		const char*userName, const char* passWord, const char* dataBaseName);
+	
 	/**query*/
 	bool mQueryDB();
 
@@ -33,12 +32,13 @@ public:
 	/**close connection*/
 
 private:	
-	MYSQL* mMysql;
-	MYSQL_FIELD* mfd;
-	char mfield[32][32];
-	MYSQL_RES* mRes;
-	MYSQL_ROW mColumn;
-	char mQuery[150];
+	MYSQL* mDbConn = NULL;
+	char mHostName[64];
+	unsigned int mPort;
+	char mUserName[64];
+	char mPassWord[64];
+	char mDataBaseName[64];
+
 
 };
 

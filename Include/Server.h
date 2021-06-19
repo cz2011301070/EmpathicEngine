@@ -15,7 +15,7 @@ class Server
 {
 public:
 
-	list<Client*> mClientList;
+	list<const Client*> mClientlist;
 
 	Server();
 	Server(const Server& other);
@@ -24,13 +24,14 @@ public:
 	u_short mGetPort();
 	
 	void mCleanSocket(void);/**< clean all sockets in the system */
-	bool mClearClient(void);
+	
 
 	void mStartListenThread(void);
 
 	void mDataSend(char *buffer, SOCKET client);
+	void mBroadcast(char *buffer);
 
-	void mAddClient(const Client &client);
+	void mAddClient(const Client* client);
 	void mRemoveClient(const Client);
 
 	SOCKET& mGetSocketListen();
@@ -41,6 +42,7 @@ private:
 	static UINT mServerThread(LPVOID pParam);
 	static UINT mClientThread(LPVOID pParam);
 	
+	bool mClearClient(void);
 	void mInitializeSocket(void);
 	bool mIsListenState(void);
 	SOCKET mSocketListen;//()const;

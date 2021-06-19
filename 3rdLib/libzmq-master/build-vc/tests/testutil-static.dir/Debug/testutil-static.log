@@ -1,0 +1,6 @@
+﻿  Building Custom Rule E:/4.Coding/libzmq-master/tests/CMakeLists.txt
+  testutil.cpp
+  testutil_monitoring.cpp
+  testutil_security.cpp
+  testutil_unity.cpp
+  testutil-static.vcxproj -> E:\4.Coding\libzmq-master\build-vc\lib\Debug\testutil-static.lib

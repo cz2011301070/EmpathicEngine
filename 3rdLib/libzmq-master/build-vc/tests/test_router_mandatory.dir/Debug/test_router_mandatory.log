@@ -1,0 +1,3 @@
+﻿  Building Custom Rule E:/4.Coding/libzmq-master/tests/CMakeLists.txt
+  test_router_mandatory.cpp
+  test_router_mandatory.vcxproj -> E:\4.Coding\libzmq-master\build-vc\bin\Debug\test_router_mandatory.exe

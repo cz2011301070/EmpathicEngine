@@ -1,0 +1,3 @@
+﻿  Building Custom Rule E:/4.Coding/libzmq-master/unittests/CMakeLists.txt
+  unittest_udp_address.cpp
+  unittest_udp_address.vcxproj -> E:\4.Coding\libzmq-master\build-vc\bin\Debug\unittest_udp_address.exe

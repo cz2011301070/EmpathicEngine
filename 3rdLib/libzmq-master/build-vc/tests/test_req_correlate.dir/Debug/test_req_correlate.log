@@ -1,0 +1,3 @@
+﻿  Building Custom Rule E:/4.Coding/libzmq-master/tests/CMakeLists.txt
+  test_req_correlate.cpp
+  test_req_correlate.vcxproj -> E:\4.Coding\libzmq-master\build-vc\bin\Debug\test_req_correlate.exe

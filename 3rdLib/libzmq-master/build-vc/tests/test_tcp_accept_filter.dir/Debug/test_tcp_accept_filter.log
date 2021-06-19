@@ -1,0 +1,3 @@
+﻿  Building Custom Rule E:/4.Coding/libzmq-master/tests/CMakeLists.txt
+  test_tcp_accept_filter.cpp
+  test_tcp_accept_filter.vcxproj -> E:\4.Coding\libzmq-master\build-vc\bin\Debug\test_tcp_accept_filter.exe

@@ -1,0 +1,10 @@
+^E:\4.CODING\LIBZMQ-MASTER\UNITTESTS\CMAKELISTS.TXT
+setlocal
+C:\Users\19082\Downloads\cmake-3.20.3-windows-x86_64\cmake-3.20.3-windows-x86_64\bin\cmake.exe -SE:/4.Coding/libzmq-master -BE:/4.Coding/libzmq-master/build-vc --check-stamp-file E:/4.Coding/libzmq-master/build-vc/unittests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

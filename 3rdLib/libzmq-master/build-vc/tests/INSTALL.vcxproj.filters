@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\4.Coding\libzmq-master\build-vc\CMakeFiles\4aef7a7f413964e1f55f86f550ffed07\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{191DCC99-D0BF-3BF5-914A-1E4A9EE5FC0B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

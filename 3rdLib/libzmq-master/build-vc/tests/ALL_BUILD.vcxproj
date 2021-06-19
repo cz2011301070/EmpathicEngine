@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9B5CB118-EFA7-347B-BC94-7E9DFD8A4341}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\4.Coding\libzmq-master\..\include;E:\4.Coding\libzmq-master\build-vc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\4.Coding\libzmq-master\..\include;E:\4.Coding\libzmq-master\build-vc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\4.Coding\libzmq-master\..\include;E:\4.Coding\libzmq-master\build-vc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\4.Coding\libzmq-master\..\include;E:\4.Coding\libzmq-master\build-vc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\4.Coding\libzmq-master\tests\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/4.Coding/libzmq-master/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\19082\Downloads\cmake-3.20.3-windows-x86_64\cmake-3.20.3-windows-x86_64\bin\cmake.exe -SE:/4.Coding/libzmq-master -BE:/4.Coding/libzmq-master/build-vc --check-stamp-file E:/4.Coding/libzmq-master/build-vc/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\4.Coding\libzmq-master\build-vc\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/4.Coding/libzmq-master/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\19082\Downloads\cmake-3.20.3-windows-x86_64\cmake-3.20.3-windows-x86_64\bin\cmake.exe -SE:/4.Coding/libzmq-master -BE:/4.Coding/libzmq-master/build-vc --check-stamp-file E:/4.Coding/libzmq-master/build-vc/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\4.Coding\libzmq-master\build-vc\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/4.Coding/libzmq-master/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\19082\Downloads\cmake-3.20.3-windows-x86_64\cmake-3.20.3-windows-x86_64\bin\cmake.exe -SE:/4.Coding/libzmq-master -BE:/4.Coding/libzmq-master/build-vc --check-stamp-file E:/4.Coding/libzmq-master/build-vc/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\4.Coding\libzmq-master\build-vc\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/4.Coding/libzmq-master/tests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\19082\Downloads\cmake-3.20.3-windows-x86_64\cmake-3.20.3-windows-x86_64\bin\cmake.exe -SE:/4.Coding/libzmq-master -BE:/4.Coding/libzmq-master/build-vc --check-stamp-file E:/4.Coding/libzmq-master/build-vc/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\4.Coding\libzmq-master\build-vc\tests\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\ZERO_CHECK.vcxproj">
+      <Project>{512BA5DE-1538-309A-8DDE-81ED7976E3A6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_ancillaries.vcxproj">
+      <Project>{3820CB50-A2AD-3408-AF72-2646AF311F89}</Project>
+      <Name>test_ancillaries</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_atomics.vcxproj">
+      <Project>{A12B4032-0847-3399-9A92-12544FDB2380}</Project>
+      <Name>test_atomics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_base85.vcxproj">
+      <Project>{E7822DCB-86EF-370E-8987-78DE78E1E3BE}</Project>
+      <Name>test_base85</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_bind_after_connect_tcp.vcxproj">
+      <Project>{420B2462-0C23-3AA6-AEBD-C71292F95D1F}</Project>
+      <Name>test_bind_after_connect_tcp</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_bind_src_address.vcxproj">
+      <Project>{E56DF1A9-FD19-35EF-B4D2-D0B941A8A2C1}</Project>
+      <Name>test_bind_src_address</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_capabilities.vcxproj">
+      <Project>{974D490B-A81A-3143-B463-6AA74A45444C}</Project>
+      <Name>test_capabilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_conflate.vcxproj">
+      <Project>{71F32484-0356-3F0B-80D8-380E81A8FB09}</Project>
+      <Name>test_conflate</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_connect_resolve.vcxproj">
+      <Project>{B5B6DCDF-05E2-3809-8F71-88217BED789F}</Project>
+      <Name>test_connect_resolve</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_connect_rid.vcxproj">
+      <Project>{F3C053AA-2924-372A-BE4A-DA2965017E0B}</Project>
+      <Name>test_connect_rid</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_ctx_destroy.vcxproj">
+      <Project>{F48066F6-5843-3DAC-9D22-70CAD9882DC3}</Project>
+      <Name>test_ctx_destroy</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_ctx_options.vcxproj">
+      <Project>{5312C712-CA17-32DA-9A33-03E03202BC87}</Project>
+      <Name>test_ctx_options</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_diffserv.vcxproj">
+      <Project>{24F667FD-D8F5-3097-8919-257ADB996080}</Project>
+      <Name>test_diffserv</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_disconnect_inproc.vcxproj">
+      <Project>{4A98CB58-3389-36CD-B5F2-7CC84CD15847}</Project>
+      <Name>test_disconnect_inproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_heartbeats.vcxproj">
+      <Project>{CB38B4C4-C4C6-3A50-BEC4-A160829FB540}</Project>
+      <Name>test_heartbeats</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_hwm.vcxproj">
+      <Project>{49573196-72D8-3CEF-B309-54FD354221D7}</Project>
+      <Name>test_hwm</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_hwm_pubsub.vcxproj">
+      <Project>{93F05969-BABE-377E-BFA3-D15E64C3A0E0}</Project>
+      <Name>test_hwm_pubsub</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_immediate.vcxproj">
+      <Project>{9913CDE1-9C90-3ED0-AAC9-61AFC9086EE5}</Project>
+      <Name>test_immediate</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_inproc_connect.vcxproj">
+      <Project>{5184AC5A-682D-3C9D-B2C5-33FF085DC94F}</Project>
+      <Name>test_inproc_connect</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_invalid_rep.vcxproj">
+      <Project>{E5161AC0-03A0-33D9-B213-63425DCA9528}</Project>
+      <Name>test_invalid_rep</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_iov.vcxproj">
+      <Project>{4B2276FD-5203-39E8-8482-EB8F5490B9C9}</Project>
+      <Name>test_iov</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_ipc_wildcard.vcxproj">
+      <Project>{CEFBDCEB-3139-34C6-90DB-F93FC440730C}</Project>
+      <Name>test_ipc_wildcard</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_issue_566.vcxproj">
+      <Project>{9962993C-593E-3FC2-AE79-400F7CA0F2EA}</Project>
+      <Name>test_issue_566</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_last_endpoint.vcxproj">
+      <Project>{11BEDB60-517A-30A9-AD16-D09389E6FD4F}</Project>
+      <Name>test_last_endpoint</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_metadata.vcxproj">
+      <Project>{E624497C-6D0B-3AA4-9D4E-45B95027FB63}</Project>
+      <Name>test_metadata</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_mock_pub_sub.vcxproj">
+      <Project>{EEEDE31E-DE92-32BC-8B0E-071B8A993617}</Project>
+      <Name>test_mock_pub_sub</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_monitor.vcxproj">
+      <Project>{F1393D8D-39B3-3FE2-AFDF-0CBB1DE84A33}</Project>
+      <Name>test_monitor</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_msg_ffn.vcxproj">
+      <Project>{BC015214-3A05-3F7D-BA66-4956A4863053}</Project>
+      <Name>test_msg_ffn</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_msg_flags.vcxproj">
+      <Project>{332EEC60-F015-3276-B074-8DB4218AC6FA}</Project>
+      <Name>test_msg_flags</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_pair_inproc.vcxproj">
+      <Project>{A83F7FC0-BAB1-3075-8C6E-20EFE4E074F7}</Project>
+      <Name>test_pair_inproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_pair_ipc.vcxproj">
+      <Project>{082CF830-3863-38DD-9172-29FCD51A9D84}</Project>
+      <Name>test_pair_ipc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_pair_tcp.vcxproj">
+      <Project>{7A7938C2-BC4F-38E6-A347-BC93B57CF928}</Project>
+      <Name>test_pair_tcp</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_probe_router.vcxproj">
+      <Project>{AC205C3D-75CA-3429-941E-2BF1822F9AEF}</Project>
+      <Name>test_probe_router</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_pub_invert_matching.vcxproj">
+      <Project>{A765650B-A9DA-3B15-B5D0-1D1EC3BE5B6A}</Project>
+      <Name>test_pub_invert_matching</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_rebind_ipc.vcxproj">
+      <Project>{5AAA00C6-A770-32D6-87E4-5423D02584E6}</Project>
+      <Name>test_rebind_ipc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_reconnect_ivl.vcxproj">
+      <Project>{459D1AD1-5C15-3ADB-A368-B09DF1AF097F}</Project>
+      <Name>test_reconnect_ivl</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_reconnect_options.vcxproj">
+      <Project>{EEB4FEDE-0814-374E-AA68-F7D00C1AEF76}</Project>
+      <Name>test_reconnect_options</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_req_correlate.vcxproj">
+      <Project>{6111B970-99FE-3B76-9809-9579310202BC}</Project>
+      <Name>test_req_correlate</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_req_relaxed.vcxproj">
+      <Project>{1BB73D45-07CA-3127-B03F-F444CB34C0DC}</Project>
+      <Name>test_req_relaxed</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_reqrep_device.vcxproj">
+      <Project>{E8E873EB-57A7-370B-9AF4-2D3F5D63A871}</Project>
+      <Name>test_reqrep_device</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_reqrep_inproc.vcxproj">
+      <Project>{6F3E308B-1087-3B36-89AB-A8F00B13ECDA}</Project>
+      <Name>test_reqrep_inproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_reqrep_ipc.vcxproj">
+      <Project>{050EBED4-189E-3AA5-889D-70A257D0AD44}</Project>
+      <Name>test_reqrep_ipc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_reqrep_tcp.vcxproj">
+      <Project>{AC05D391-1D94-3A54-A3DA-7F9DF2BDAC81}</Project>
+      <Name>test_reqrep_tcp</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_router_handover.vcxproj">
+      <Project>{CCC62DA6-9C08-3C9C-807C-2CCE5522D62B}</Project>
+      <Name>test_router_handover</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_router_mandatory.vcxproj">
+      <Project>{865B1F4B-22E1-3AD9-ACEE-C650BB455D2D}</Project>
+      <Name>test_router_mandatory</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_security_curve.vcxproj">
+      <Project>{16C12F0A-AAFD-39F6-8884-EFD4EDCDBC94}</Project>
+      <Name>test_security_curve</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_security_no_zap_handler.vcxproj">
+      <Project>{2AE3437B-7B59-3EBB-8164-89038F43C086}</Project>
+      <Name>test_security_no_zap_handler</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_security_null.vcxproj">
+      <Project>{74578DA3-4A4D-3221-A66A-8A79E86DA9AF}</Project>
+      <Name>test_security_null</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_security_plain.vcxproj">
+      <Project>{4E1E05A6-C641-3FC6-81C9-D1B136230186}</Project>
+      <Name>test_security_plain</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_security_zap.vcxproj">
+      <Project>{FD1C55C5-686D-3145-9858-5546867A9DB9}</Project>
+      <Name>test_security_zap</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_setsockopt.vcxproj">
+      <Project>{45643FF4-FF2A-3B3F-A104-182B98C49FF7}</Project>
+      <Name>test_setsockopt</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_shutdown_stress.vcxproj">
+      <Project>{051AA8A2-EF8F-3969-8A13-D43EB3B104F5}</Project>
+      <Name>test_shutdown_stress</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_socket_null.vcxproj">
+      <Project>{AF8707A4-D278-36D7-B0DB-A2841A9FE148}</Project>
+      <Name>test_socket_null</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_sockopt_hwm.vcxproj">
+      <Project>{A9C759A0-0312-3934-8009-391173C47D40}</Project>
+      <Name>test_sockopt_hwm</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_sodium.vcxproj">
+      <Project>{5F19393E-4190-3F5F-A3C8-790BAF8697E6}</Project>
+      <Name>test_sodium</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_spec_dealer.vcxproj">
+      <Project>{6884A66F-CDF3-30B1-B0CE-66EE307FE676}</Project>
+      <Name>test_spec_dealer</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_spec_pushpull.vcxproj">
+      <Project>{B35134C3-B0BA-3B00-8D56-20B3D2B8F427}</Project>
+      <Name>test_spec_pushpull</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_spec_rep.vcxproj">
+      <Project>{03365379-E3FB-359B-BB2B-9D5FE71ECAAB}</Project>
+      <Name>test_spec_rep</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_spec_req.vcxproj">
+      <Project>{09B50718-8F00-3809-B005-38326FEA5D7D}</Project>
+      <Name>test_spec_req</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_spec_router.vcxproj">
+      <Project>{4026A9DB-4232-34B0-A0F4-04D3589DF3B0}</Project>
+      <Name>test_spec_router</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_srcfd.vcxproj">
+      <Project>{F02A6C43-6AE2-3942-9A9F-6741E26EF243}</Project>
+      <Name>test_srcfd</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_stream.vcxproj">
+      <Project>{0B1D7062-19F2-3FC0-B918-435656B2BDF2}</Project>
+      <Name>test_stream</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_stream_disconnect.vcxproj">
+      <Project>{3301FAAE-A7DF-394B-AB8C-D6A056766317}</Project>
+      <Name>test_stream_disconnect</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_stream_empty.vcxproj">
+      <Project>{E09708D7-6F9D-3F98-B8A1-E4290D81CE39}</Project>
+      <Name>test_stream_empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_stream_timeout.vcxproj">
+      <Project>{BFDC779D-C381-3319-9F79-16E3CDA27162}</Project>
+      <Name>test_stream_timeout</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_sub_forward.vcxproj">
+      <Project>{3ABE1E77-800E-3D85-A22F-16332F3209DA}</Project>
+      <Name>test_sub_forward</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_system.vcxproj">
+      <Project>{048978ED-2D0F-3FBA-A2C6-DF6F0E141AB6}</Project>
+      <Name>test_system</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_tcp_accept_filter.vcxproj">
+      <Project>{0D407CD0-8A08-33B9-A5B9-A52E5CA70248}</Project>
+      <Name>test_tcp_accept_filter</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_term_endpoint.vcxproj">
+      <Project>{F1FBEB08-5AA5-3F61-B9C2-DE2C8898523A}</Project>
+      <Name>test_term_endpoint</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_timeo.vcxproj">
+      <Project>{AB05DA77-18ED-3588-BEA4-F667506F3D33}</Project>
+      <Name>test_timeo</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_unbind_wildcard.vcxproj">
+      <Project>{6F18E450-099A-3C51-BB3E-7AB4284F2D4C}</Project>
+      <Name>test_unbind_wildcard</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_xpub_manual.vcxproj">
+      <Project>{BB294EF8-30B2-307A-83FF-5955178C507E}</Project>
+      <Name>test_xpub_manual</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_xpub_nodrop.vcxproj">
+      <Project>{F99BC887-15A5-38A9-B2A4-82C67FEB3A42}</Project>
+      <Name>test_xpub_nodrop</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_xpub_verbose.vcxproj">
+      <Project>{1844C88E-E291-3C16-8F9F-517D1C9C048B}</Project>
+      <Name>test_xpub_verbose</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\test_xpub_welcome_msg.vcxproj">
+      <Project>{6D0A19AA-2BE9-34D2-995E-816181D3E6B3}</Project>
+      <Name>test_xpub_welcome_msg</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\testutil.vcxproj">
+      <Project>{7E56AEB0-461F-3EA7-A278-13FF78F42A17}</Project>
+      <Name>testutil</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\testutil-static.vcxproj">
+      <Project>{1BDE6FB6-2062-3C2F-9CA1-4CDC3F167BD6}</Project>
+      <Name>testutil-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\4.Coding\libzmq-master\build-vc\tests\unity.vcxproj">
+      <Project>{C5190868-4CEB-3369-A5B4-217CF8CE7820}</Project>
+      <Name>unity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

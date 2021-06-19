@@ -1,7 +1,7 @@
 #pragma once
 #include "AbstractFactory.h"
 
-class ClientFactory:AbstractFactory{
+class ClientFactory:AbstractFactory<Client>{
 public:
 	ClientFactory();
 	virtual ~ClientFactory();

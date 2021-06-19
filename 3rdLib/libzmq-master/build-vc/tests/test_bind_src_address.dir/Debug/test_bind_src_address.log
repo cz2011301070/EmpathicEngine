@@ -1,0 +1,3 @@
+﻿  Building Custom Rule E:/4.Coding/libzmq-master/tests/CMakeLists.txt
+  test_bind_src_address.cpp
+  test_bind_src_address.vcxproj -> E:\4.Coding\libzmq-master\build-vc\bin\Debug\test_bind_src_address.exe

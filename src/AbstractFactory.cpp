@@ -1,7 +1,7 @@
 #include "../Include/AbstractFactory.h"
 
-AbstractFactory::AbstractFactory(){}
-AbstractFactory::~AbstractFactory(){}
+//AbstractFactory<int>::AbstractFactory(){}
+//AbstractFactory<int>::~AbstractFactory(){}
 
 
 

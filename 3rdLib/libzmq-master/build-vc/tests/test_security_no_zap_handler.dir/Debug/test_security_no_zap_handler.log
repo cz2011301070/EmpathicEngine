@@ -1,0 +1,3 @@
+﻿  Building Custom Rule E:/4.Coding/libzmq-master/tests/CMakeLists.txt
+  test_security_no_zap_handler.cpp
+  test_security_no_zap_handler.vcxproj -> E:\4.Coding\libzmq-master\build-vc\bin\Debug\test_security_no_zap_handler.exe

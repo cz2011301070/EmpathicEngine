@@ -1,0 +1,3 @@
+﻿  Building Custom Rule E:/4.Coding/libzmq-master/tests/CMakeLists.txt
+  test_xpub_nodrop.cpp
+  test_xpub_nodrop.vcxproj -> E:\4.Coding\libzmq-master\build-vc\bin\Debug\test_xpub_nodrop.exe

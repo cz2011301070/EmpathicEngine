@@ -1,0 +1,3 @@
+﻿  Building Custom Rule E:/4.Coding/libzmq-master/tests/CMakeLists.txt
+  test_shutdown_stress.cpp
+  test_shutdown_stress.vcxproj -> E:\4.Coding\libzmq-master\build-vc\bin\Debug\test_shutdown_stress.exe

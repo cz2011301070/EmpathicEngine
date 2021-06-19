@@ -1,0 +1,3 @@
+﻿  Building Custom Rule E:/4.Coding/libzmq-master/tests/CMakeLists.txt
+  test_mock_pub_sub.cpp
+  test_mock_pub_sub.vcxproj -> E:\4.Coding\libzmq-master\build-vc\bin\Debug\test_mock_pub_sub.exe

@@ -1,0 +1,229 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: E:/4.Coding/libzmq-master/build-vc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/ProfessionalSoftwares/Microsoft Visual Studio 2019/MSBuild/Current/Bin/MSBuild.exe cmTC_cb383.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.7.0+b89cb5fde
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cb383.dir\Debug\\" /Fd"cmTC_cb383.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_cb383.vcxproj]
+
+
+
+Determining if the if_nametoindex exist failed with the following output:
+Change Dir: E:/4.Coding/libzmq-master/build-vc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/ProfessionalSoftwares/Microsoft Visual Studio 2019/MSBuild/Current/Bin/MSBuild.exe cmTC_d853a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.7.0+b89cb5fde
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d853a.dir\Debug\\" /Fd"cmTC_d853a.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx"
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ipifcons.h(248,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ipifcons.h(248,15): error C2146: syntax error: missing ';' before identifier 'IFTYPE' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\iprtrmib.h(145,19): error C3646: 'dwVarId': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\iprtrmib.h(145,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\iprtrmib.h(146,24): error C3646: 'rgdwVarIndex': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\iprtrmib.h(146,24): error C2143: syntax error: missing ',' before '[' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\iprtrmib.h(146,34): error C2143: syntax error: missing ')' before ';' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\iprtrmib.h(146,34): error C2238: unexpected token(s) preceding ';' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(23,37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(23,16): error C2146: syntax error: missing ';' before identifier 'NET_IF_COMPARTMENT_ID' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(23,62): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(31,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(31,14): error C2146: syntax error: missing ';' before identifier 'NET_IF_NETWORK_GUID' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(31,56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(44,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(44,17): error C2146: syntax error: missing ';' before identifier 'NET_IF_OBJECT_ID' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(44,53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(92,51): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(104,47): error C3646: 'ifRcvAddressLength': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(104,47): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(105,47): error C3646: 'ifRcvAddressOffset': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(105,47): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(110,26): error C3646: 'ifAliasLength': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(110,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(111,26): error C3646: 'ifAliasOffset': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(111,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(118,22): error C3646: 'Value': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(118,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(121,29): error C3646: 'Reserved': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(121,29): error C2059: syntax error: ':' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(121,29): error C2334: unexpected token(s) preceding ':'; skipping apparent function body [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(124,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(139,29): error C3646: 'NET_LUID': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(139,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(139,29): error C2378: '_NET_LUID_LH::NET_LUID_LH': redefinition; symbol cannot be overloaded with a typedef [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(125): message : see declaration of '_NET_LUID_LH::NET_LUID_LH' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(140,17): error C2143: syntax error: missing ';' before '*' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(140,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(140,28): error C2238: unexpected token(s) preceding ';' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(152,26): error C3646: 'NET_IFTYPE': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(152,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(152,40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(277,19): error C2059: syntax error: 'constant' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(278,17): error C3646: 'USHORT': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(278,23): error C3646: 'Length': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(278,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(278,23): warning C4183: '_Field_range_': missing return type; assumed to be a member function returning 'int' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(279,23): error C3646: 'String': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(279,23): error C2143: syntax error: missing ',' before '[' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(279,47): error C2143: syntax error: missing ')' before ';' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(279,47): error C2238: unexpected token(s) preceding ';' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(286,19): error C2059: syntax error: 'constant' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(287,17): error C3646: 'USHORT': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(287,23): error C3646: 'Length': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(287,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(287,23): warning C4183: '_Field_range_': missing return type; assumed to be a member function returning 'int' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(288,24): error C3646: 'Address': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(288,24): error C2143: syntax error: missing ',' before '[' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(288,52): error C2143: syntax error: missing ')' before ';' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(288,52): error C2238: unexpected token(s) preceding ';' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(350,50): error C3646: 'ifPromiscuousMode': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(350,50): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(351,53): error C3646: 'ifDeviceWakeUpEnable': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(351,53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(352,46): error C3646: 'XmitLinkSpeed': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(352,46): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(353,45): error C3646: 'RcvLinkSpeed': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(353,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(355,45): error C3646: 'ifLastChange': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(355,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(356,59): error C3646: 'ifCounterDiscontinuityTime': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(356,59): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(357,50): error C3646: 'ifInUnknownProtos': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(357,50): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(362,45): error C3646: 'ifInDiscards': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(362,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(363,43): error C3646: 'ifInErrors': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(363,43): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(364,45): error C3646: 'ifHCInOctets': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(364,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(365,48): error C3646: 'ifHCInUcastPkts': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(365,48): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(366,52): error C3646: 'ifHCInMulticastPkts': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(366,52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(367,52): error C3646: 'ifHCInBroadcastPkts': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(367,52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(368,46): error C3646: 'ifHCOutOctets': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(368,46): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(369,49): error C3646: 'ifHCOutUcastPkts': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(369,49): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(370,53): error C3646: 'ifHCOutMulticastPkts': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(370,53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(371,53): error C3646: 'ifHCOutBroadcastPkts': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(371,53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(372,44): error C3646: 'ifOutErrors': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(372,44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(373,46): error C3646: 'ifOutDiscards': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(373,46): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(374,50): error C3646: 'ifHCInUcastOctets': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(374,50): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(375,54): error C3646: 'ifHCInMulticastOctets': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(375,54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(376,54): error C3646: 'ifHCInBroadcastOctets': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(376,54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(377,51): error C3646: 'ifHCOutUcastOctets': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(377,51): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(378,55): error C3646: 'ifHCOutMulticastOctets': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(378,55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(379,55): error C3646: 'ifHCOutBroadcastOctets': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(379,55): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(380,46): error C3646: 'CompartmentId': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifdef.h(380,46): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(32,1): error C2159: more than one storage class specified [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(32,9): error C2236: unexpected token 'struct'. Did you forget a ';'? [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(33,1): error C2059: syntax error: '{' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(33,1): error C2143: syntax error: missing ';' before '{' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(33,1): error C2447: '{': missing function header (old-style formal list?) [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(35,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(35,31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(49,18): error C3646: 'wszName': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(49,18): error C2143: syntax error: missing ',' before '[' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(49,42): error C2143: syntax error: missing ')' before ';' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(49,42): error C2238: unexpected token(s) preceding ';' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(50,21): error C3646: 'dwIndex': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(50,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(51,18): error C3646: 'dwType': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(51,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(52,16): error C3646: 'dwMtu': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(52,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(53,18): error C3646: 'dwSpeed': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(53,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(54,24): error C3646: 'dwPhysAddrLen': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(54,24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(55,20): error C3646: 'bPhysAddr': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(55,20): error C2143: syntax error: missing ',' before '[' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(55,37): error C2143: syntax error: missing ')' before ';' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(55,37): error C2238: unexpected token(s) preceding ';' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(56,24): error C3646: 'dwAdminStatus': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(56,24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(58,23): error C3646: 'dwLastChange': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(58,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(59,21): error C3646: 'dwInOctets': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(59,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(60,24): error C3646: 'dwInUcastPkts': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(60,24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(61,25): error C3646: 'dwInNUcastPkts': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(61,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(62,23): error C3646: 'dwInDiscards': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(62,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(63,21): error C3646: 'dwInErrors': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(63,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(64,28): error C3646: 'dwInUnknownProtos': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(64,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(65,22): error C3646: 'dwOutOctets': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(65,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(66,25): error C3646: 'dwOutUcastPkts': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(66,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(67,26): error C3646: 'dwOutNUcastPkts': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(67,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(68,24): error C3646: 'dwOutDiscards': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(68,24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(69,22): error C3646: 'dwOutErrors': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(69,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(70,20): error C3646: 'dwOutQLen': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(70,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(71,21): error C3646: 'dwDescrLen': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(71,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(72,17): error C3646: 'bDescr': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(72,17): error C2143: syntax error: missing ',' before '[' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(72,33): error C2143: syntax error: missing ')' before ';' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(72,33): error C2238: unexpected token(s) preceding ';' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(76,23): error C3646: 'dwNumEntries': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\ifmib.h(76,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\nldef.h(218,33): error C3646: 'NlChecksumSupported': unknown override specifier [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+D:\Windows Kits\10\Include\10.0.18362.0\shared\nldef.h(218,33): fatal error C1003: error count exceeds 100; stopping compilation [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_d853a.vcxproj]
+
+
+File E:/4.Coding/libzmq-master/build-vc/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <iphlpapi.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef if_nametoindex
+  return ((int*)(&if_nametoindex))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function fopen exists in the ws2 failed with the following output:
+Change Dir: E:/4.Coding/libzmq-master/build-vc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/ProfessionalSoftwares/Microsoft Visual Studio 2019/MSBuild/Current/Bin/MSBuild.exe cmTC_459b4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.7.0+b89cb5fde
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.27.29111 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fopen /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_459b4.dir\Debug\\" /Fd"cmTC_459b4.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\19082\Downloads\cmake-3.20.3-windows-x86_64\cmake-3.20.3-windows-x86_64\share\cmake-3.20\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'ws2.lib' [E:\4.Coding\libzmq-master\build-vc\CMakeFiles\CMakeTmp\cmTC_459b4.vcxproj]
+
+
+

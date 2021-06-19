@@ -1,0 +1,2 @@
+E:\4.Coding\libzmq-master\build-vc\lib\Debug\unity.pdb
+E:\4.Coding\libzmq-master\build-vc\tests\unity.dir\Debug\unity.pdb
